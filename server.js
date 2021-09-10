@@ -26,6 +26,6 @@ io.on("error", console.log);
 
 app.use(express.static(__dirname));
 
-app.listen(8079, function() {
+httpServer.listen(8079, function() {
     console.log("Listening at 8079");
 });
